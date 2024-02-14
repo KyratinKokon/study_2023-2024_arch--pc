@@ -1,0 +1,32 @@
+cd ~/work/study/2023-2024/"Архитектура компьютера"/arch-pc
+git add .
+git commit -am 'feat(main): add files lab-3'
+git push
+
+варианта (рис. @fig:002).
+
+![6-2](image/6-2.png){#fig:002 width=70%}
+
+mkdir ~/work/lab08
+cd ~/work/lab08
+touch lab09-4.asm
+nasm -f elf lab09-4.asm
+ld -m elf_i386 lab09-4.o -o lab09-4
+./lab09-4
+
+nasm -f elf -g -l lab09-2.lst lab09-2.asm
+ld -m elf_i386 -o lab09-2 lab09-2.o
+gdb lab09-2
+
+cd ~/work/study/2023-2024/"Архитектура компьютера"/arch-pc/labs/lab03/report
+make
+
+pandoc report.md -o report.pdf
+pandoc report.md -o report.docx
+
+
+
+Скопируйте файл lab8-2.asm, созданный при выполнении лабораторной работы №8,
+с программой выводящей на экран аргументы командной строки (Листинг 8.2) в файл с
+именем lab09-3.asm:
+cp ~/work/arch-pc/lab08/lab8-2.asm ~/work/arch-pc/lab09/lab09-3.asm
