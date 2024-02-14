@@ -108,7 +108,7 @@ int 80h
 
 ![Трансляция, линковка и запуск программы hello.asm](images/3.png){ #fig:003 width=70%, height=70% }
 
-![](images/4.png){ #fig:003 width=70%, height=70% }
+(images/4.png){ #fig:003 width=70%, height=70% }
 
 
 8. Изменили сообщение Hello world на свое имя и запустили файл еще раз.
