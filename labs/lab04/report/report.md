@@ -52,7 +52,7 @@ biblatexoptions:
   - autolang=other*
   - citestyle=gost-numeric
 ## Pandoc-crossref LaTeX customization
-figureTitle: "� ис."
+figureTitle: "Рис."
 tableTitle: "Таблица"
 listingTitle: "Листинг"
 lofTitle: "Список иллюстраций"
@@ -114,7 +114,7 @@ int 80h
 
 ```
 SECTION .data
-hello: DB 'Yusuf Subanov',10 
+hello: DB 'Geller_m_a',10 
 helloLen: EQU $-hello
 SECTION .text
 GLOBAL _start
